@@ -17,7 +17,6 @@ code {
 }
 
 .signature-canvas {
-  width: 100% !important;
-  height: 200px !important;
+  /* Prevent scrolling while drawing on touch devices */
   touch-action: none;
 }

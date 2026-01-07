@@ -276,11 +276,11 @@ const SellerForm = () => {
                   <label className="block text-sm font-medium text-gray-700 mb-2">
                     Digital Signature *
                   </label>
-                  <div className="border-2 border-gray-300 rounded-md p-2 bg-white">
+                  <div className="border-2 border-gray-300 rounded-md p-2 bg-white overflow-auto">
                     <SignatureCanvas
                       ref={signatureRef}
                       canvasProps={{
-                        className: 'signature-canvas w-full h-48',
+                        className: 'signature-canvas',
                         width: 800,
                         height: 200
                       }}
